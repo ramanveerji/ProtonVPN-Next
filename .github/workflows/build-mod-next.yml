@@ -1,9 +1,6 @@
 name: Build ProtonMOD-Next
 
 on:
-  push:
-    tags:
-      - '*'
   workflow_dispatch:
     inputs:
       create_pre_release:
